@@ -34,7 +34,7 @@
     display: none;
 }
 .accordion label:before {
-    content: '\f7';
+    content: '\2193';
     float: right;
 }
 .accordion input:checked + label {
@@ -43,7 +43,7 @@
 }
 .accordion input:checked + label:before {
     transition: transform .35s;
-    transform: rotate(90deg);
+    transform: rotate(180deg);
     
 }
 
@@ -56,6 +56,6 @@
 .image {
     width: 100%;
     height: auto;
-    /* border-radius: 15px; */
-    border-radius: 15px 100px 15px 100px;
+    border-radius: 15px;
+    
 }
